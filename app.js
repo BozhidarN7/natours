@@ -17,6 +17,7 @@ const viewRouter = require('./routes/viewRoutes');
 const bookingRouter = require('./routes/bookingRoutes')
 const { validate } = require('./models/userModel');
 
+// Start express app
 const app = express();
 
 app.set('view engine', 'pug');
