@@ -6607,6 +6607,7 @@ exports.displayMap = void 0;
 
 /* eslint-disable */
 var displayMap = function displayMap(locations) {
+  console.log(locations);
   mapboxgl.accessToken = 'pk.eyJ1IjoiYm96aGlkYXJuIiwiYSI6ImNranR3bThmajJpdnYyeHRmaGI1NzNiaTkifQ.ueSXhKwH2_HwCO7hPl6pJg';
   var map = new mapboxgl.Map({
     container: 'map',
@@ -9094,7 +9095,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59765" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50056" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
